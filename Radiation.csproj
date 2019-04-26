@@ -62,11 +62,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\Futured.TTF" />
+    <AndroidAsset Include="Assets\BebasNeue-Regular.ttf" />
+    <AndroidAsset Include="Assets\KeepCalm-Medium.ttf" />
+    <AndroidAsset Include="Assets\AireExterior.ttf" />
+    <AndroidAsset Include="Assets\Philosopher-Regular.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
     </None>
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidAsset Include="Assets\postmaster.ttf" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_main.axml">

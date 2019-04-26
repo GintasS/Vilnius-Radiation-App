@@ -4,7 +4,6 @@ C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\bin
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\bin\Debug\Radiation.Radiation-Signed.apk
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\Radiation.nuget.stamp
-C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\Radiation.csprojAssemblyReference.cache
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\res.flag
 C:\Users\Gintautas\Documents\Visual Studio 2017\Projects\Radiation\Radiation\obj\Debug\81\Radiation.csproj.CoreCompileInputs.cache

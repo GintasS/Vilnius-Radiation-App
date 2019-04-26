@@ -54,7 +54,7 @@ namespace Radiation
             if (isNumeric)
                 view.Text = amount + " µSv/h";
             else
-                view.Text = "-";
+                view.Text = "N/A";
         }
     }
 }

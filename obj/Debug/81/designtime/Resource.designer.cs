@@ -2447,6 +2447,9 @@ namespace Radiation
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
+			// aapt resource value: 0x7F020004
+			public const int description = 2130837508;
+			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
 			
@@ -2537,8 +2540,8 @@ namespace Radiation
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020010
-			public const int message = 2130837520;
+			// aapt resource value: 0x7F020009
+			public const int message = 2130837513;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -2546,17 +2549,17 @@ namespace Radiation
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020009
-			public const int navigation = 2130837513;
+			// aapt resource value: 0x7F020008
+			public const int navigation = 2130837512;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020011
-			public const int navigation_home = 2130837521;
+			// aapt resource value: 0x7F020010
+			public const int navigation_home = 2130837520;
 			
-			// aapt resource value: 0x7F020012
-			public const int navigation_notifications = 2130837522;
+			// aapt resource value: 0x7F020011
+			public const int navigation_notifications = 2130837521;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2591,8 +2594,11 @@ namespace Radiation
 			// aapt resource value: 0x7F0C0052
 			public const int progress_horizontal = 2131492946;
 			
-			// aapt resource value: 0x7F020008
-			public const int radiationLevels = 2130837512;
+			// aapt resource value: 0x7F020006
+			public const int radiationAmount = 2130837510;
+			
+			// aapt resource value: 0x7F020007
+			public const int radiationLevels = 2130837511;
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
@@ -2726,12 +2732,6 @@ namespace Radiation
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020004
-			public const int textViewTodayText = 2130837508;
-			
-			// aapt resource value: 0x7F020006
-			public const int textViewYestText = 2130837510;
-			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
@@ -2788,9 +2788,6 @@ namespace Radiation
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
-			
-			// aapt resource value: 0x7F020007
-			public const int yestRadiation = 2130837511;
 			
 			static Id()
 			{
