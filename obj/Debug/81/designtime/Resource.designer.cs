@@ -1370,9 +1370,6 @@ namespace Radiation
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F060005
-			public const int ic_launcher_background = 2131099653;
-			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
 			
@@ -2255,19 +2252,22 @@ namespace Radiation
 			public const int design_snackbar_background = 2131296347;
 			
 			// aapt resource value: 0x7F010002
-			public const int ic_dashboard_black_24dp = 2130771970;
-			
-			// aapt resource value: 0x7F010003
-			public const int ic_home_black_24dp = 2130771971;
-			
-			// aapt resource value: 0x7F010004
-			public const int ic_launcher_background = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int ic_notifications_black_24dp = 2130771973;
+			public const int ic_launcher_background = 2130771970;
 			
 			// aapt resource value: 0x7F010006
-			public const int img1 = 2130771974;
+			public const int ic_radiation = 2130771974;
+			
+			// aapt resource value: 0x7F010005
+			public const int ic_radiation - Copy = 2130771973;
+			
+			// aapt resource value: 0x7F010003
+			public const int ic_radiation - Copy (5) = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int ic_radiation - Copy (6) = 2130771972;
+			
+			// aapt resource value: 0x7F010007
+			public const int img1 = 2130771975;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2308,11 +2308,11 @@ namespace Radiation
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010007
-			public const int questionMark = 2130771975;
-			
 			// aapt resource value: 0x7F010008
-			public const int radiation = 2130771976;
+			public const int questionMark = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int radiation = 2130771977;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3064,13 +3064,22 @@ namespace Radiation
 			public const int icon_round = 2131034115;
 			
 			// aapt resource value: 0x7F050004
-			public const int ic_launcher = 2131034116;
+			public const int ic_launcher_round = 2131034116;
+			
+			// aapt resource value: 0x7F050007
+			public const int ic_radiation - Copy (2) = 2131034119;
+			
+			// aapt resource value: 0x7F050008
+			public const int ic_radiation - Copy (3) = 2131034120;
+			
+			// aapt resource value: 0x7F050009
+			public const int ic_radiation - Copy (4) = 2131034121;
 			
 			// aapt resource value: 0x7F050006
-			public const int ic_launcher_foreground = 2131034118;
+			public const int ic_radiation48 = 2131034118;
 			
 			// aapt resource value: 0x7F050005
-			public const int ic_launcher_round = 2131034117;
+			public const int ic_radiation72 = 2131034117;
 			
 			static Mipmap()
 			{

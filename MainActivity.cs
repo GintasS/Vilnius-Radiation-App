@@ -1,6 +1,5 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
@@ -9,7 +8,7 @@ using Android.Graphics;
 
 namespace Radiation
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Icon = "@drawable/ic_radiation", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessageDefault;
@@ -93,4 +92,3 @@ namespace Radiation
         }
     }
 }
-

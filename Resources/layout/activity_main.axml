@@ -68,6 +68,7 @@
  
 		/>
 
+
 	</FrameLayout>
 	<android.support.design.widget.BottomNavigationView
 		android:id="@+id/navigation"
