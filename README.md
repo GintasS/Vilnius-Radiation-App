@@ -11,7 +11,8 @@
   - [Changelog](#changelog)
 
 ## <a name="Intro"></a>Intro
-<p> This is an app, made so that city residents/guests could easily access Vilnius radiation data, so they could decide whether it is safe to venture outside(most of the time, it is).
+<p> This is an app, made so that city residents/guests could easily access Vilnius radiation data, so they could decide whether it is safe to venture outside(most of the time, it is).<br><br>
+ You can download app here: https://play.google.com/store/apps/details?id=com.VilniusRadiation.Radiation</p>
   
 ## <a name="Features"></a>Features
 <ul>
