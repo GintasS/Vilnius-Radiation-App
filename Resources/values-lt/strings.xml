@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vilniaus Radiacija</string>
+    <string name="title_home">Radiacija</string>
+    <string name="title_notifications">Apie</string>
+</resources>

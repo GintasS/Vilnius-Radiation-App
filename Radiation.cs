@@ -2,33 +2,33 @@
 using Android.Widget;
 using System.Net;
 using System.IO;
+using System.Globalization;
 
 namespace Radiation
 {
     static class RadiationData
     {
-        public static string RadiationLabel = "Today's radiation:";
-        private static string DateFormat = "yyyy-MM-dd";
+        // Fields, that are needed for API access.
+        private static string dateFormat = "yyyy-MM-dd";
         private static string APIBaseUrl = @"http://vilniausfonas.info/en/radiation/radiationapi.php?date=";
+
+        // Fields, that are responsible with data being printed on the screen.
+        private static string radiationUnit = "µSv/h";
+        private static string dataNotAvailable = "N/A";
 
         /// <summary>
         /// Method, that gets radiation data from API.
         /// </summary>
         /// <param name="view">TextView model to display to.</param>
-        /// <param name="mode">Determines date.1 - today's, 2 - yesterday's.</param>
-        public static void GetRadiationData(TextView view, int mode)
+        public static void GetRadiationData(TextView view, MainActivity ac)
         {
             string html = string.Empty,
-                   yesterday = DateTime.Today.AddDays(-1).ToString(DateFormat),
-                   today = DateTime.Today.ToString(DateFormat),
-                   url = "-";
+                   today = DateTime.Today.ToString(dateFormat),
+                   url = APIBaseUrl + today;
 
-            if (mode == 1)
-                url = APIBaseUrl + today;
-            else if (mode == 2)
-                url = APIBaseUrl + yesterday;
-
-            Console.WriteLine(url);
+            string[] exceptionData = Locale.ExceptionLocale;
+            int internet = (int)LocaleExceptControls.Internet;
+            int general = (int)LocaleExceptControls.General;
 
             try
             {
@@ -42,19 +42,31 @@ namespace Radiation
                     html = reader.ReadToEnd();
                 }
             }
-            catch
+            catch(WebException ex)
             {
-                view.Text = "-";
+                if (ex.Message == "Error: NameResolutionFailure")
+                    Alert.ShowErrorAlert(exceptionData[internet], ac);
+                else
+                    Alert.ShowErrorAlert(exceptionData[general], ac);
+
+                view.Text = dataNotAvailable;
+                return;
+            }
+            catch(Exception ex)
+            {
+                Alert.ShowErrorAlert(exceptionData[general] + ex.Message, ac);
+
+                view.Text = dataNotAvailable;
                 return;
             }
 
-            double amount;
-            bool isNumeric = double.TryParse(html, out amount);
+            bool isNumber = Double.TryParse(html, NumberStyles.AllowDecimalPoint, 
+                CultureInfo.InvariantCulture, out double number);
 
-            if (isNumeric)
-                view.Text = amount + " µSv/h";
+            if (isNumber)
+                view.Text = number.ToString().Replace(",", ".") + " " + radiationUnit;
             else
-                view.Text = "N/A";
+                view.Text = dataNotAvailable;
         }
     }
 }

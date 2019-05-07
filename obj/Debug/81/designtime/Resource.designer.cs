@@ -2254,20 +2254,50 @@ namespace Radiation
 			// aapt resource value: 0x7F010002
 			public const int ic_launcher_background = 2130771970;
 			
-			// aapt resource value: 0x7F010006
-			public const int ic_radiation = 2130771974;
-			
-			// aapt resource value: 0x7F010005
-			public const int ic_radiation - Copy = 2130771973;
-			
 			// aapt resource value: 0x7F010003
-			public const int ic_radiation - Copy (5) = 2130771971;
+			public const int ic_radiation = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ic_radiation - Copy (6) = 2130771972;
+			public const int img1 = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int img10 = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int img11 = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int img1 = 2130771975;
+			public const int img12 = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int img13 = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int img14 = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int img2 = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int img3 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int img4 = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int img5 = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int img6 = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int img7 = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int img8 = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int img9 = 2130771991;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2308,11 +2338,11 @@ namespace Radiation
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010008
-			public const int questionMark = 2130771976;
+			// aapt resource value: 0x7F010018
+			public const int questionMark = 2130771992;
 			
-			// aapt resource value: 0x7F010009
-			public const int radiation = 2130771977;
+			// aapt resource value: 0x7F010019
+			public const int radiation = 2130771993;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2505,7 +2535,7 @@ namespace Radiation
 			public const int image = 2131492920;
 			
 			// aapt resource value: 0x7F020003
-			public const int ImageView1 = 2130837507;
+			public const int ImageBack = 2130837507;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -3066,20 +3096,8 @@ namespace Radiation
 			// aapt resource value: 0x7F050004
 			public const int ic_launcher_round = 2131034116;
 			
-			// aapt resource value: 0x7F050007
-			public const int ic_radiation - Copy (2) = 2131034119;
-			
-			// aapt resource value: 0x7F050008
-			public const int ic_radiation - Copy (3) = 2131034120;
-			
-			// aapt resource value: 0x7F050009
-			public const int ic_radiation - Copy (4) = 2131034121;
-			
-			// aapt resource value: 0x7F050006
-			public const int ic_radiation48 = 2131034118;
-			
 			// aapt resource value: 0x7F050005
-			public const int ic_radiation72 = 2131034117;
+			public const int ic_radiation = 2131034117;
 			
 			static Mipmap()
 			{
