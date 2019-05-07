@@ -6,6 +6,7 @@
 
   - [Intro](#intro)
   - [Features](#features)
+  - [Requirements](#requirements)
   - [Media](#media)
   - [Changelog](#changelog)
 
@@ -19,6 +20,17 @@
   <li>Two locales: lithuanian and english</li>
   <li>Background images</li>
   <li>Error handling</li>
+  <li>Created by Xamarin</li>
+</ul>
+
+## <a name="Requirements"></a>Requirements
+<ul>
+  <li>OS: Android</li>
+  <li>Target Framework: Android 8.1(Oreo)</li>
+  <li>Minimum Android version: Android 7.1(API Level 25)</li>
+  <li>Target Android version: Android 8.1(API Level 27)</li>
+  <li>Supported architectures: armeabi, armeabi-v7a, x86, x86_64, arm64-v8a</li>
+  <li>Permissions: Internet</li>
 </ul>
 
 ## <a name="Media"></a>Media
