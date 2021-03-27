@@ -58,3 +58,13 @@
 <blockquote>Image 4</blockquote>
 
 ## <a name="Changelog"></a>Changelog
+
+<h3> CHANGELOG 26/07/2020</h3>
+<ul>
+  <li>Target Level API was updated to API Level 30.</li>
+</ul>
+
+<h3> CHANGELOG 27/03/2021</h3>
+<ul>
+  <li>Fixed grammar mistakes.</li>
+</ul>
